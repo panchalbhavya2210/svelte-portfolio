@@ -44,7 +44,7 @@
   button {
     margin: 0 40px 0 40px;
     background-color: var(--bright-blue);
-    padding: 10px 20px;
+    padding: 1vw;
     border: none;
     outline: none;
     cursor: pointer;
