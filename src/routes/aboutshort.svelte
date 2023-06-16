@@ -1,52 +1,72 @@
 <script>
-  import aboutMe from "../lib/images/aboutme.svg";
-
+  import B from "../lib/images/b.jpeg";
   import "./styles.css";
 </script>
 
 <main>
-  <div class="displayFlex">
-    <div class="imgAbt">
-      <img src={aboutMe} alt="about me logo" class="imgAbt" />
+  <div class="aboutMeInShort">
+    <div class="firstPhoto">
+      <img src={B} alt="" srcset="" class="b" />
     </div>
-    <div class="myDetailsInShort">
+
+    <div class="secondDivDetails">
+      <h1>Full-Stack<br />Developer<span class="brightColor">.</span></h1>
+      <br />
       <p>
-        My name is Bhavya Panchal and I am a web developer with experience in
-        frontend development, HTML, CSS, JavaScript, Firebase, React, Svelte and
-        Git.
-        <br /><br /> I have been working in the web development field for the
-        past few years and have gained extensive knowledge and experience in
-        various technologies.
-        <br /><br /> I am passionate about creating user-friendly websites that are
-        visually appealing and technically sound. With my expertise in modern web
-        technologies such as React and Svelte, I am confident that I can provide
-        the best solutions to any of your web development needs.
+        I am a fullstack web developer. with passion of creating unique
+        websites.
       </p>
+      <p>
+        I want to develop creative website while also providing a unique
+        experience to users.
+      </p>
+      <p>
+        Looking forward to work with a experienced team to gain my experience
+        too.
+      </p>
+
+      <button class="designBtn">
+        <a href="/about">About ME</a>
+      </button>
+      <button class="designBtn">My Projects</button>
     </div>
   </div>
 </main>
 
 <style>
-  main {
-    height: 100vh;
+  .aboutMeInShort {
     font-family: Outfit;
-  }
-  .displayFlex {
+    color: #fff;
+    font-weight: 300;
+    width: 100%;
+    height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
+    margin: 50px 0 0 0;
   }
-  .imgAbt {
-    width: 40%;
-    margin: 0 -180px 0 20px;
+  .brightColor {
+    color: var(--bright-blue);
   }
-  .myDetailsInShort {
-    width: 70%;
-    color: #fff;
-    font-size: 2.1vw;
-    margin: 0 50px 0 0;
-    line-height: 40px;
+
+  .firstPhoto {
+    margin: 0 0 0 180px;
+  }
+  .secondDivDetails {
+    width: 60%;
+    margin: 0 12vw 0 0;
+  }
+  .secondDivDetails h1 {
+    font-weight: 500;
+  }
+  .secondDivDetails p {
+    font-size: 1.7vw;
+    line-height: 30px;
+  }
+  .b {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    filter: brightness(110%) saturate(80%);
   }
 </style>

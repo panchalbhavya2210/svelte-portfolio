@@ -7,5 +7,4 @@
 <main>
   <Hero />
   <Aboutshort />
-  <Myprojects />
 </main>
