@@ -1,6 +1,7 @@
 <script>
   import B from "../lib/images/b.jpeg";
   import "./styles.css";
+  import bigArrow from "../lib/icons/big-arrow.svg";
 </script>
 
 <main>
@@ -10,11 +11,14 @@
     </div>
 
     <div class="secondDivDetails">
-      <h1>Full-Stack<br />Developer<span class="brightColor">.</span></h1>
+      <h1>
+        Full-Stack<span class="brightColor"> &nbsp;// </span>Developer<span
+          class="brightColor">.</span
+        >
+      </h1>
       <br />
       <p>
-        I am a fullstack web developer. with passion of creating unique
-        websites.
+        I am a fullstack web developer with passion of creating unique websites.
       </p>
       <p>
         I want to develop creative website while also providing a unique
@@ -26,9 +30,17 @@
       </p>
 
       <button class="designBtn">
-        <a href="/about">About ME</a>
+        <a class="flex" href="/about">
+          <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+          <span>About Me</span>
+        </a>
       </button>
-      <button class="designBtn">My Projects</button>
+      <button class="designBtn">
+        <a class="flex" href="/myprojects">
+          <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+          <span>My Projects</span>
+        </a>
+      </button>
     </div>
   </div>
 </main>
@@ -68,5 +80,38 @@
     object-fit: cover;
     border-radius: 100%;
     filter: brightness(110%) saturate(80%);
+  }
+  .designBtn {
+    background: none;
+    color: #fff;
+    border: none;
+    margin: 20px 30px 0 0px;
+    /* display: flex;
+    align-items: center; */
+    height: 30px;
+    font-family: Outfit;
+    font-weight: 500;
+  }
+  .designBtn a img {
+    margin: 0 10px 0 0;
+    transition: 0.2s;
+  }
+  .designBtn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    transition: 0.2s;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  .designBtn a:hover {
+    color: var(--bright-blue);
+  }
+  .designBtn a:hover .btnBlue {
+    filter: invert(0%) sepia(69%) saturate(6288%) hue-rotate(118deg)
+      brightness(103%) contrast(102%);
+    transform: translatex(5px);
   }
 </style>
