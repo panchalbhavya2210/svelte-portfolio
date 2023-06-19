@@ -152,5 +152,35 @@
     font-weight: 600;
   }
   @media only screen and (max-width: 675px) {
+    .mainDisplayFlex {
+      display: block;
+      width: 100%;
+    }
+    .detailsContainer {
+      display: none;
+      margin: auto;
+      width: 110%;
+    }
+    .myDetailsInShort {
+      width: 100%;
+      margin: 90px 0 0 -15px;
+      font-size: 2rem;
+      line-height: 50px;
+    }
+    .myDetailsInSummary {
+      width: 100%;
+      font-size: 1.5rem;
+      margin: 50px 0 0 -15px;
+    }
+    .exploreBtn {
+      margin: 50px 0 0 -15px;
+    }
+    .anotherChild {
+      width: 100%;
+    }
+    .positonAbsoluteImg,
+    .imageContainer {
+      display: none;
+    }
   }
 </style>

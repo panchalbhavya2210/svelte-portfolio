@@ -10,15 +10,44 @@
     </div>
 
     <div class="navLinks">
-      <div
-        class="aria"
-        aria-current={$page.url.pathname === "/" ? "page" : undefined}
+      <a href="/"
+        ><button
+          class="btn items aria"
+          aria-current={$page.url.pathname === "/" ? "page" : undefined}
+          >Home</button
+        ></a
       >
-        <a href="/"><button class="btn items">Home</button></a>
+      <a href="/about"
+        ><button
+          class="btn items aria"
+          aria-current={$page.url.pathname === "/about" ? "page" : undefined}
+          >About Me</button
+        ></a
+      >
+      <a href="/myprojects"
+        ><button
+          class="btn items aria"
+          aria-current={$page.url.pathname === "/myprojects"
+            ? "page"
+            : undefined}>My Projects</button
+        ></a
+      >
+      <a href="/myprojects"
+        ><button
+          class="btn items aria"
+          aria-current={$page.url.pathname === "/contactme"
+            ? "page"
+            : undefined}>Connect</button
+        ></a
+      >
+    </div>
+
+    <div class="hamBurger">
+      <div class="hamburgerDesign">
+        <div class="barOne one" />
+        <div class="barOne two" />
+        <div class="barOne thi" />
       </div>
-      <a href="/about"><button class="btn items">About Me</button></a>
-      <a href="/myprojects"><button class="btn items">My Projects</button></a>
-      <a href="/myprojects"><button class="btn items">Connect</button></a>
     </div>
   </div>
 </header>
@@ -53,6 +82,7 @@
     margin: 0 40px 0 0;
   }
   button {
+    position: relative;
     margin: 0 40px 0 40px;
     background-color: var(--bright-blue);
     padding: 1vw;
@@ -71,18 +101,35 @@
     border: 1px solid var(--bright-blue);
     background-color: var(--body-color);
   }
-  .aria {
-    position: relative;
+
+  .aria[aria-current="page"] {
+    color: #fff;
+    border: 1px solid var(--bright-blue);
+    background-color: var(--body-color);
   }
-  .aria[aria-current="page"]::before {
-    --size: 6px;
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 0;
-    left: calc(50% - 10px);
-    border: 10px solid transparent;
-    border-top: 10px solid #f00;
+  .hamBurger {
+    display: none;
+  }
+  @media only screen and (max-width: 675px) {
+    .navLinks {
+      display: none;
+    }
+    .myNameLogo {
+      font-size: 3vw;
+      margin: 0 0 0 30px;
+    }
+    .hamBurger {
+      display: block;
+      width: 50px;
+      height: 30px;
+      margin: 0 20px 0 0;
+    }
+    .barOne {
+      width: 40px;
+      height: 2px;
+      background-color: var(--bright-blue);
+      margin: 8px auto;
+      border-radius: 10px;
+    }
   }
 </style>

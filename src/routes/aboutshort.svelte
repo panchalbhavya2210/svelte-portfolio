@@ -114,4 +114,34 @@
       brightness(103%) contrast(102%);
     transform: translatex(5px);
   }
+
+  @media only screen and (max-width: 675px) {
+    .aboutMeInShort {
+      display: block;
+      margin: 50px 0 0 0;
+      width: 100%;
+    }
+    .firstPhoto {
+      margin: 20px;
+    }
+    .secondDivDetails {
+      width: 100%;
+
+      margin: 0 0 0 0;
+    }
+    .secondDivDetails h1 {
+      margin: 0 0 0 20px;
+    }
+    .secondDivDetails p {
+      font-size: 1.2rem;
+      margin: 0 0 0 20px;
+    }
+    .flex {
+      display: block;
+      align-items: center;
+    }
+    .designBtn a {
+      font-size: 1rem;
+    }
+  }
 </style>
