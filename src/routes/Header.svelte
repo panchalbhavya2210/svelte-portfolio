@@ -2,9 +2,7 @@
   import { page } from "$app/stores";
   import "./styles.css";
 
-  function runSom() {
-    alert(1);
-  }
+  let toggleNav;
 </script>
 
 <header>
@@ -46,7 +44,7 @@
       >
     </div>
 
-    <button class="hamBurger" on:click={runSom}>
+    <button class="hamBurger" on:click={() => (toggleNav = !toggleNav)}>
       <div class="hamburgerDesign">
         <div class="barOne one" />
         <div class="barOne two" />
@@ -55,13 +53,13 @@
     </button>
   </div>
 
-  <div class="navBlock">
+  <div id="toShow" class="{toggleNav ? 'toggleNav' : ''} navBlock">
     <div class="navBlockMain">
       <a href="/"
         ><button
           class="btn items aria"
           aria-current={$page.url.pathname === "/" ? "page" : undefined}
-          >Home</button
+          on:click={() => (toggleNav = !toggleNav)}>Home</button
         ></a
       >
       <br />
@@ -69,7 +67,7 @@
         ><button
           class="btn items aria"
           aria-current={$page.url.pathname === "/about" ? "page" : undefined}
-          >About Me</button
+          on:click={() => (toggleNav = !toggleNav)}>About Me</button
         ></a
       >
       <br />
@@ -79,7 +77,8 @@
           class="btn items aria"
           aria-current={$page.url.pathname === "/myprojects"
             ? "page"
-            : undefined}>My Projects</button
+            : undefined}
+          on:click={() => (toggleNav = !toggleNav)}>My Projects</button
         ></a
       >
       <br />
@@ -89,7 +88,8 @@
           class="btn items aria"
           aria-current={$page.url.pathname === "/contactme"
             ? "page"
-            : undefined}>Connect</button
+            : undefined}
+          on:click={() => (toggleNav = !toggleNav)}>Connect</button
         ></a
       >
     </div>
@@ -169,11 +169,15 @@
     .hamBurger {
       display: block;
       width: 50px;
-      height: 30px;
+      height: 40px;
       margin: 0 20px 0 0;
       z-index: 5555;
-      background-color: none;
+      background-color: #00000000;
+      border: none;
+      outline: none;
+      border-radius: 2px;
     }
+
     .barOne {
       width: 40px;
       height: 2px;
@@ -192,12 +196,13 @@
       width: 100%;
       height: 100%;
       background-color: var(--body-color);
+      transition: 0.5s;
     }
     .toggleNav {
       opacity: 1;
       pointer-events: all;
     }
-    button {
+    .btn {
       width: 200px;
       font-size: 2rem;
       margin: 30px 0;
