@@ -20,7 +20,6 @@
       return "Good Evening 👋,";
     }
   }
-  //
 </script>
 
 <svelte:head>
