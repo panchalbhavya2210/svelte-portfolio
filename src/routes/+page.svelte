@@ -1,10 +1,11 @@
 <script>
-  import Aboutshort from "./aboutshort.svelte";
   import Hero from "./hero.svelte";
-  import Myprojects from "./myprojects.svelte";
+  import Aboutshort from "./aboutshort.svelte";
+  import Shortprojects from "./shortprojects.svelte";
 </script>
 
 <main>
   <Hero />
   <Aboutshort />
+  <Shortprojects />
 </main>

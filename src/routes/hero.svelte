@@ -198,13 +198,13 @@
     }
     @keyframes rotate {
       0% {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(0.8);
       }
       50% {
-        transform: rotate(360deg) scale(1);
+        transform: rotate(360deg) scale(0.8);
       }
       100% {
-        transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(0.8);
       }
     }
   }
