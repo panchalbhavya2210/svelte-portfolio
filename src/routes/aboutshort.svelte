@@ -65,11 +65,11 @@
   }
 
   .firstPhoto {
-    margin: 0 0 0 180px;
+    margin: 0 0 0 120px;
   }
   .secondDivDetails {
     width: 60%;
-    margin: 0 12vw 0 0;
+    margin: 0 12% 0 0;
   }
   .secondDivDetails h1 {
     font-weight: 500;
@@ -84,6 +84,7 @@
     object-fit: cover;
     border-radius: 100%;
     filter: brightness(110%) saturate(80%);
+    pointer-events: none;
   }
   .designBtn {
     background: none;
@@ -126,7 +127,10 @@
       width: 100%;
     }
     .firstPhoto {
-      margin: 20px;
+      margin: 30px;
+    }
+    .b {
+      border-radius: 30px 30px;
     }
     .secondDivDetails {
       width: 100%;
@@ -134,11 +138,11 @@
       margin: 0 0 0 0;
     }
     .secondDivDetails h1 {
-      margin: 0 0 0 20px;
+      margin: 0 0 0 30px;
     }
     .secondDivDetails p {
       font-size: 1.3rem;
-      margin: 0 0 0 20px;
+      margin: 0 0 0 30px;
     }
     .flex {
       display: flex;
@@ -149,7 +153,7 @@
     }
     .designBtn {
       display: flex;
-      margin: 20px;
+      margin: 30px;
     }
   }
 </style>

@@ -2,6 +2,9 @@
   import { page } from "$app/stores";
   import "./styles.css";
 
+  /**
+   * @type {boolean}
+   */
   let toggleNav;
 </script>
 
@@ -207,6 +210,18 @@
       font-size: 2rem;
       margin: 30px 0;
       border-radius: 10px;
+      border: none;
+      outline: none;
+      background-color: #000;
+      color: #fff;
+    }
+    .aria[aria-current="page"] {
+      color: #fff;
+      background-color: none;
+      border: none;
+      border-radius: 0;
+      border-top: 2px solid var(--bright-blue);
+      border-bottom: 2px solid var(--bright-blue);
     }
   }
 </style>

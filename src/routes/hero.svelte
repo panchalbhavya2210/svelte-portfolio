@@ -168,17 +168,17 @@
     }
     .myDetailsInShort {
       width: 100%;
-      margin: 90px 0 0 -15px;
+      margin: 90px 0 0 -20px;
       font-size: 2rem;
       line-height: 50px;
     }
     .myDetailsInSummary {
       width: 100%;
       font-size: 1.5rem;
-      margin: 50px 0 0 -15px;
+      margin: 50px 0 0 -20px;
     }
     .exploreBtn {
-      margin: 50px 0 0 -15px;
+      margin: 50px 0 0 -20px;
     }
     .anotherChild {
       width: 100%;
