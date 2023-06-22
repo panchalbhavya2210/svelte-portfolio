@@ -20,10 +20,14 @@
       <p>
         I am a fullstack web developer with passion of creating unique websites.
       </p>
+      <br />
+
       <p>
         I want to develop creative website while also providing a unique
         experience to users.
       </p>
+      <br />
+
       <p>
         Looking forward to work with a experienced team to gain my experience
         too.
@@ -133,15 +137,19 @@
       margin: 0 0 0 20px;
     }
     .secondDivDetails p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       margin: 0 0 0 20px;
     }
     .flex {
-      display: block;
+      display: flex;
       align-items: center;
     }
-    .designBtn a {
-      font-size: 1rem;
+    .designBtn a span {
+      font-size: 1.2rem;
+    }
+    .designBtn {
+      display: flex;
+      margin: 20px;
     }
   }
 </style>

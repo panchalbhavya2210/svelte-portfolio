@@ -3,6 +3,7 @@
   import flowerPic from "../lib/images/esther-lewis-yP0ntBuVcVA-unsplash.jpg";
   import blueGrad from "../lib/images/blue-gradient.svg";
   import arrow from "../lib/images/arrow.svg";
+  import blueBorder from "../lib/images/blue-border-sd.svg";
 
   let greetDay = new Date();
 
@@ -27,6 +28,7 @@
 </svelte:head>
 
 <section class="margin">
+  <img src={blueBorder} class="blueBorder" alt="blue-border" />
   <div class="positonAbsoluteImg">
     <img src={blueGrad} alt="blob" class="imgBlob" />
   </div>
@@ -151,6 +153,9 @@
     -webkit-text-fill-color: transparent;
     font-weight: 600;
   }
+  .blueBorder {
+    display: none;
+  }
   @media only screen and (max-width: 675px) {
     .mainDisplayFlex {
       display: block;
@@ -181,6 +186,26 @@
     .positonAbsoluteImg,
     .imageContainer {
       display: none;
+    }
+    .blueBorder {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      animation: rotate 30s ease-in-out infinite;
+    }
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg) scale(1);
+      }
+      50% {
+        transform: rotate(360deg) scale(1);
+      }
+      100% {
+        transform: rotate(0deg) scale(1);
+      }
     }
   }
 </style>
