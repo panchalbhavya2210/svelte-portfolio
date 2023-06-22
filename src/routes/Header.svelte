@@ -212,14 +212,13 @@
       border-radius: 10px;
       border: none;
       outline: none;
-      background-color: #000;
+      background-color: var(--body-color);
       color: #fff;
     }
     .aria[aria-current="page"] {
       color: #fff;
       background-color: none;
       border: none;
-      border-radius: 0;
       border-top: 2px solid var(--bright-blue);
       border-bottom: 2px solid var(--bright-blue);
     }

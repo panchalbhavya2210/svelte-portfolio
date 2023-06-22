@@ -3,7 +3,7 @@
   import flowerPic from "../lib/images/esther-lewis-yP0ntBuVcVA-unsplash.jpg";
   import blueGrad from "../lib/images/blue-gradient.svg";
   import arrow from "../lib/images/arrow.svg";
-  import blueBorder from "../lib/images/blue-border-sd.svg";
+  import blueBorder from "../lib/images/blob-haikei.svg";
 
   let greetDay = new Date();
 
