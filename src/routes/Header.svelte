@@ -156,6 +156,7 @@
   .aria[aria-current="page"] {
     color: #fff;
     border: 1px solid var(--bright-blue);
+    box-shadow: 0 0 5px var(--bright-blue);
     background-color: var(--body-color);
   }
   .hamBurger {
