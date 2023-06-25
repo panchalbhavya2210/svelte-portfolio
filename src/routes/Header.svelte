@@ -222,7 +222,7 @@
       border: none;
       border-top: 2px solid var(--bright-blue);
       border-bottom: 2px solid var(--bright-blue);
+      box-shadow: 0 0 0px var(--bright-blue);
     }
   }
-  /* keep */
 </style>

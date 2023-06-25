@@ -173,7 +173,7 @@
 
   .divHeight {
     width: 100%;
-    height: 230px;
+    height: 230%;
     border-radius: 10px;
   }
 
@@ -288,6 +288,8 @@
     .projectTitleSecond {
       width: 100%;
       font-size: 1rem;
+      margin: 0 20px 10px 0px;
+      padding: 0 10px 10px 20px;
     }
     .bolderTitle {
       font-weight: 500;
