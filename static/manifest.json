@@ -3,7 +3,7 @@
     "name": "My Portfolio PWA",
     "icons" : [
       {
-      "src": "src/lib/icons/favicon_512_512.svg",
+      "src": "favicon_512_512.svg",
       "type": "image/svg+xml",
       "sizes": "512x512"
     }],
