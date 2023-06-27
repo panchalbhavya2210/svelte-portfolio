@@ -135,4 +135,22 @@
       line-height: 39px;
     }
   }
+
+  @media screen and (min-width: 1024px) and (min-height: 1310px) {
+    .listOfNav {
+      position: absolute;
+      top: 25px;
+      left: 140px;
+      font-size: 1.1rem;
+      line-height: 39px;
+    }
+
+    .listOfLinks {
+      left: 190px;
+    }
+
+    .listOfRes {
+      left: 160px;
+    }
+  }
 </style>
