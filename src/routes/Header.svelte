@@ -37,12 +37,11 @@
             : undefined}>My Projects</button
         ></a
       >
-      <a href="/myprojects"
+      <a href="/connect"
         ><button
           class="btn items aria"
-          aria-current={$page.url.pathname === "/contactme"
-            ? "page"
-            : undefined}>Connect</button
+          aria-current={$page.url.pathname === "/connect" ? "page" : undefined}
+          >Connect</button
         ></a
       >
     </div>

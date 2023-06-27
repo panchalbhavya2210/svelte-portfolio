@@ -19,19 +19,35 @@
       <div class="letMainDiv">
         <img src={navigationSvg} alt="navigation-svg" class="imgWidthAdj" />
         <div class="listOfNav">
-          <p>Home</p>
-          <p>About Me</p>
-          <p>My Projects</p>
-          <p>Connect</p>
+          <p class="hoverP">
+            <a href="/">Home</a>
+          </p>
+          <p class="hoverP">
+            <a href="/about">About Me</a>
+          </p>
+          <p class="hoverP">
+            <a href="/myprojects">My Projects</a>
+          </p>
+          <p class="hoverP">
+            <a href="/connect">Connect</a>
+          </p>
         </div>
       </div>
       <div class="letMainDiv">
         <img src={linksSvg} alt="links-svg" class="imgWidthAdj listAdjust" />
         <div class="listOfLinks">
-          <p>Home</p>
-          <p>About Me</p>
-          <p>My Projects</p>
-          <p>Connect</p>
+          <p class="hoverP">
+            <a href="/">Github Profile</a>
+          </p>
+          <p class="hoverP">
+            <a href="/about">Twitter</a>
+          </p>
+          <p class="hoverP">
+            <a href="/myprojects">Reddit</a>
+          </p>
+          <p class="hoverP">
+            <a href="/connect">G-Mail</a>
+          </p>
         </div>
       </div>
       <div class="letMainDiv">
@@ -41,10 +57,18 @@
           class="imgWidthAdj resAdjust"
         />
         <div class="listOfRes">
-          <p>Home</p>
-          <p>About Me</p>
-          <p>My Projects</p>
-          <p>Connect</p>
+          <p class="hoverP">
+            <a href="/">Wallpaper</a>
+          </p>
+          <p class="hoverP">
+            <a href="/about">Figma(Designing)</a>
+          </p>
+          <p class="hoverP">
+            <a href="/myprojects">Outfit(Font)</a>
+          </p>
+          <p class="hoverP">
+            <a href="/connect">Iconify(Icons)</a>
+          </p>
         </div>
       </div>
     </div>
@@ -85,8 +109,9 @@
   .listOfNav,
   .listOfLinks,
   .listOfRes {
+    cursor: pointer;
     position: absolute;
-    top: 28px;
+    top: 34px;
     left: 30%;
     line-height: 40px;
   }
@@ -95,6 +120,29 @@
   }
   .listOfRes {
     left: 33%;
+  }
+  .listOfNav a,
+  .listOfLinks a,
+  .listOfRes a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+  }
+  a:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -2px;
+    width: 0px;
+    height: 2px;
+    background-color: var(--bright-blue);
+    border-radius: 10px;
+    transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .hoverP:hover a:after {
+    height: 2px;
+    width: 100%;
   }
   @media only screen and (max-width: 675px) {
     .madeByLogo {
