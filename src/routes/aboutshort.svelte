@@ -1,5 +1,5 @@
 <script>
-  import B from "../lib/images/b.jpeg";
+  import B from "../lib/images/my-image-removed-bg.png";
   import "./styles.css";
   import bigArrow from "../lib/icons/big-arrow.svg";
 </script>
@@ -79,11 +79,13 @@
     line-height: 30px;
   }
   .b {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
-    border-radius: 100%;
-    filter: brightness(110%) saturate(80%);
+    border-radius: 10%;
+    filter: brightness(105%) saturate(100%);
+    pointer-events: none;
+    background: linear-gradient(-45deg, rgb(93, 236, 255), rgb(11, 0, 137));
     pointer-events: none;
   }
   .designBtn {
