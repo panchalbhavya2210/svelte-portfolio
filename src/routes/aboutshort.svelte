@@ -88,39 +88,6 @@
     background: linear-gradient(-45deg, rgb(93, 236, 255), rgb(11, 0, 137));
     pointer-events: none;
   }
-  .designBtn {
-    background: none;
-    color: #fff;
-    border: none;
-    margin: 20px 30px 0 0px;
-    /* display: flex;
-    align-items: center; */
-    height: 30px;
-    font-family: Outfit;
-    font-weight: 500;
-  }
-  .designBtn a img {
-    margin: 0 10px 0 0;
-    transition: 0.2s;
-  }
-  .designBtn a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5vw;
-    transition: 0.2s;
-  }
-  .flex {
-    display: flex;
-    align-items: center;
-  }
-  .designBtn a:hover {
-    color: var(--bright-blue);
-  }
-  .designBtn a:hover .btnBlue {
-    filter: invert(0%) sepia(69%) saturate(6288%) hue-rotate(118deg)
-      brightness(103%) contrast(102%);
-    transform: translatex(5px);
-  }
 
   @media only screen and (max-width: 675px) {
     .aboutMeInShort {
