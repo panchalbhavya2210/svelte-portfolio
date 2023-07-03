@@ -4,6 +4,18 @@
   import B from "/src/lib/images/my-image-removed-bg.png";
   import bigArrow from "/src/lib/icons/big-arrow.svg";
   import gitIcon from "/src/lib/icons/github.svg";
+  import chartJs from "/src/lib/iconsSKill/chart.svg";
+  import css from "/src/lib/iconsSKill/css.svg";
+  import figma from "/src/lib/iconsSKill/figma.svg";
+  import firebase from "/src/lib/iconsSKill/firebase.svg";
+  import git from "/src/lib/iconsSKill/git.svg";
+  import html from "/src/lib/iconsSKill/html.svg";
+  import node from "/src/lib/iconsSKill/node.svg";
+  import php from "/src/lib/iconsSKill/php.svg";
+  import react from "/src/lib/iconsSKill/react.svg";
+  import socket from "/src/lib/iconsSKill/socket.svg";
+  import svelte from "/src/lib/iconsSKill/svelte.svg";
+  import vercel from "/src/lib/iconsSKill/vercel.svg";
 </script>
 
 <main>
@@ -44,19 +56,37 @@
           </p>
           <p class="myDetails">
             I am 22 year old <span class="brightColor"
-              >fullstack website developer from India.</span
+              >frontend website developer from India. And i am learning backend.</span
             >
             Currently i am in college doing 5th semester of BCA(Bachelor Of Computer
-            Application) Course at Monark University. I sta
+            Application) Course at Monark University. I started programming as hobby.
+            I got into programming in lockdown and started learning it from mimo
+            app and various youtube channels.
 
             <br /><br />
-            Besides working full time, I also have a few open source projects that
-            can be found on my work page. My most recent project is called Meteocons,
-            a free-to use set of animated weather icons.
+            Beside working part-time at pharmacy and doing college i created some
+            side project that gave me alot of experience. And i am also eager to
+            learn new thing. I have learned a lot from practical.
+          </p>
+          <p class="titleO">
+            Coding Journey<span class="brightColor">.</span>
+          </p>
+          <p class="myDetails">
+            I started learning frontend website development in 2020. I did
+            learning from Mimo App and Youtube Videos. After learning basics i
+            got into creating various project. I created some basic project and
+            improved them time by time. I started coding in phone and i created
+            various project using spck editor.
+            <br /> <br />
+            After coding in mobile for a long time. I bought laptop and started coding
+            in it. I mostly use visual stodio code for programming. I am stil learning
+            basics of backend so i can become a fullstack developer.
           </p>
         </div>
       </div>
     </div>
+
+    <div class="iconsMania">/</div>
   </div>
 </main>
 
@@ -141,6 +171,7 @@
   .myDetails {
     font-size: 1.3vw;
     font-weight: 300;
+    margin: 0 0 30px 0;
     /* line-height: 28px; */
   }
 </style>

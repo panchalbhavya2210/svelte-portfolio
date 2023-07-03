@@ -92,10 +92,10 @@
     align-items: center;
   }
   .madeByLogo {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 500;
-    margin: 0 0 0 30px;
-    line-height: 60px;
+    margin: 30px 0 0 30px;
+    /* line-height: 60px; */
   }
   .letMainDiv {
     position: relative;
