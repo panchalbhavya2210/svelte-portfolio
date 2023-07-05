@@ -10,9 +10,9 @@
         Projects<br />I Have Done<span class="brightColor">.</span>
       </p>
       <p class="inDetails">
-        This is some side projects i have created as practical practice. This
-        projects helped me understand the fundamental of frontend and backend
-        side of web.
+        This is a list of some side projects I have created as practical
+        practice. This project helped me understand the fundamentals of the
+        frontend and backend sides of the web.
       </p>
       <button class="designBtn">
         <a class="flex" href="/myprojects">

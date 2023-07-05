@@ -18,18 +18,19 @@
       </h1>
       <br />
       <p>
-        I am a fullstack web developer with passion of creating unique websites.
+        I am a full-stack web developer with a passion for creating unique
+        websites.
       </p>
       <br />
 
       <p>
-        I want to develop creative website while also providing a unique
+        I want to develop a creative website while also providing a unique
         experience to users.
       </p>
       <br />
 
       <p>
-        Looking forward to work with a experienced team to gain my experience
+        I look forward to working with an experienced team to gain experience
         too.
       </p>
 

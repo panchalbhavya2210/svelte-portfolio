@@ -15,7 +15,8 @@
   import react from "/src/lib/iconsSKill/react.svg";
   import socket from "/src/lib/iconsSKill/socket.svg";
   import svelte from "/src/lib/iconsSKill/svelte.svg";
-  import vercel from "/src/lib/iconsSKill/vercel.svg";
+  import js from "/src/lib/iconsSKill/js.svg";
+  import Rectangle from "../rectangle.svelte";
 </script>
 
 <main>
@@ -55,38 +56,89 @@
             Hello, I Am Bhavya<span class="brightColor">.</span>
           </p>
           <p class="myDetails">
-            I am 22 year old <span class="brightColor"
-              >frontend website developer from India. And i am learning backend.</span
-            >
-            Currently i am in college doing 5th semester of BCA(Bachelor Of Computer
-            Application) Course at Monark University. I started programming as hobby.
-            I got into programming in lockdown and started learning it from mimo
-            app and various youtube channels.
-
+            I am a 22-year-old front-end website developer from India. And I am
+            learning the backend. Currently, I am in college, doing the 5th
+            semester of the BCA (Bachelor of Computer Application) Course at
+            Monark University. I started programming as a hobby. I got into
+            programming in lockdown and started learning it from the Mimo app
+            and various YouTube channels.
             <br /><br />
-            Beside working part-time at pharmacy and doing college i created some
-            side project that gave me alot of experience. And i am also eager to
-            learn new thing. I have learned a lot from practical.
+            Beside working part-time at a pharmacy and doing college, I created some
+            side projects that gave me a lot of experience. And I am also eager to
+            learn new things. I have learned a lot from practicals.
           </p>
           <p class="titleO">
             Coding Journey<span class="brightColor">.</span>
           </p>
           <p class="myDetails">
-            I started learning frontend website development in 2020. I did
-            learning from Mimo App and Youtube Videos. After learning basics i
-            got into creating various project. I created some basic project and
-            improved them time by time. I started coding in phone and i created
-            various project using spck editor.
-            <br /> <br />
-            After coding in mobile for a long time. I bought laptop and started coding
-            in it. I mostly use visual stodio code for programming. I am stil learning
-            basics of backend so i can become a fullstack developer.
+            I started learning front-end website development in 2020. I did most
+            of the learning from the Mimo App and YouTube Videos. After learning
+            the basics, I got into creating various projects. I created some
+            basic projects and improved them over time. I started coding on my
+            phone, and I created various projects using the SPCK editor.
+            <br /><br />
+            After coding in mobile for a long time. I bought a laptop and started
+            coding on it. I mostly use Visual Studio Code for programming. I am still
+            learning the basics of the backend so I can become a full-stack developer.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="iconsMania">/</div>
+    <div class="iconsMania">
+      <div class="skillNexp">
+        <p class="titleOfExp">
+          Skills <span class="brightColor">&</span> Experience<span
+            class="brightColor">.</span
+          >
+        </p>
+        <br />
+        <p class="detailOfexp">
+          I've been programming for more than a year, and there is a lot I've
+          learned from creating projects.
+          <br /><br />
+          These are the languages, frameworks, and services I have experience in.
+        </p>
+      </div>
+      <div class="iconsContainer">
+        <Rectangle src={html} languageName={"HTML5"} alt={"Html Logo"} />
+        <Rectangle src={css} languageName={"CSS3"} alt={"Css Logo"} />
+        <Rectangle
+          src={js}
+          languageName={"JavaScript"}
+          alt={"Javascript Logo"}
+        />
+        <Rectangle src={figma} languageName={"Figma"} alt={"Figma Logo"} />
+        <Rectangle
+          src={firebase}
+          languageName={"Firebase"}
+          alt={"Firebase Logo"}
+        />
+        <Rectangle
+          src={svelte}
+          languageName={"Svelte Kit"}
+          alt={"Svelte Logo"}
+        />
+        <Rectangle src={git} languageName={"GIT"} alt={"Git Logo"} />
+        <Rectangle
+          src={chartJs}
+          languageName={"Chart JS"}
+          alt={"Chart Js Logo"}
+        />
+        <Rectangle src={node} languageName={"Node JS"} alt={"Node Js Logo"} />
+        <Rectangle src={php} languageName={"PHP"} alt={"Php Logo"} />
+        <Rectangle
+          src={react}
+          languageName={"React JS (Basics)"}
+          alt={"React Logo"}
+        />
+        <Rectangle
+          src={socket}
+          languageName={"Socket IO"}
+          alt={"Socket iO Logo"}
+        />
+      </div>
+    </div>
   </div>
 </main>
 
@@ -173,5 +225,30 @@
     font-weight: 300;
     margin: 0 0 30px 0;
     /* line-height: 28px; */
+  }
+  .iconsMania {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .iconsContainer {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 40px;
+    margin: 0 0 0 50px;
+  }
+  .skillNexp {
+    width: 25%;
+    margin: 0 40px 0 0;
+  }
+  .titleOfExp {
+    font-size: 2vw;
+  }
+  .detailOfexp {
+    font-weight: 300;
+    font-size: 1.4vw;
   }
 </style>

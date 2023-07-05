@@ -43,7 +43,7 @@
         </h1>
         <p class="myDetailsInSummary">
           A web developer and UI designer who loves turning ideas into reality.
-          Always looking for ways to improve and grow in my craft!
+          I'm always looking for ways to improve and grow in my craft!
         </p>
         <button class="exploreBtn"
           ><span class="black">EXPLORE <br /> IT.</span>

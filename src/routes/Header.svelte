@@ -166,7 +166,7 @@
       display: none;
     }
     .myNameLogo {
-      font-size: 3vw;
+      font-size: 2vw;
       margin: 0 0 0 30px;
     }
     .hamBurger {
