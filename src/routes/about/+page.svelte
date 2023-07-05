@@ -4,7 +4,7 @@
   import B from "/src/lib/images/my-image-removed-bg.png";
   import bigArrow from "/src/lib/icons/big-arrow.svg";
   import gitIcon from "/src/lib/icons/github.svg";
-  import chartJs from "/src/lib/iconsSKill/chart.svg";
+  // import chartJs from "/src/lib/iconsSKill/chart.svg";
   import css from "/src/lib/iconsSKill/css.svg";
   import figma from "/src/lib/iconsSKill/figma.svg";
   import firebase from "/src/lib/iconsSKill/firebase.svg";
