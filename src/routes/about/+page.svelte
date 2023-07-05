@@ -4,18 +4,18 @@
   import B from "/src/lib/images/my-image-removed-bg.png";
   import bigArrow from "/src/lib/icons/big-arrow.svg";
   import gitIcon from "/src/lib/icons/github.svg";
-  // import chartJs from "/src/lib/iconsSKill/chart.svg";
-  import css from "/src/lib/iconsSKill/css.svg";
-  import figma from "/src/lib/iconsSKill/figma.svg";
-  import firebase from "/src/lib/iconsSKill/firebase.svg";
-  import git from "/src/lib/iconsSKill/git.svg";
-  import html from "/src/lib/iconsSKill/html.svg";
-  import node from "/src/lib/iconsSKill/node.svg";
-  import php from "/src/lib/iconsSKill/php.svg";
-  import react from "/src/lib/iconsSKill/react.svg";
-  import socket from "/src/lib/iconsSKill/socket.svg";
-  import svelte from "/src/lib/iconsSKill/svelte.svg";
-  import js from "/src/lib/iconsSKill/js.svg";
+  import chartJs from "/src/lib/iconsSkill/chart.svg";
+  import css from "/src/lib/iconsSkill/css.svg";
+  import figma from "/src/lib/iconsSkill/figma.svg";
+  import firebase from "/src/lib/iconsSkill/firebase.svg";
+  import git from "/src/lib/iconsSkill/git.svg";
+  import html from "/src/lib/iconsSkill/html.svg";
+  import node from "/src/lib/iconsSkill/node.svg";
+  import php from "/src/lib/iconsSkill/php.svg";
+  import react from "/src/lib/iconsSkill/react.svg";
+  import socket from "/src/lib/iconsSkill/socket.svg";
+  import svelte from "/src/lib/iconsSkill/svelte.svg";
+  import js from "/src/lib/iconsSkill/js.svg";
   import Rectangle from "../rectangle.svelte";
 </script>
 
