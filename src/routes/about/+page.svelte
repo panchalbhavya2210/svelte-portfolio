@@ -17,6 +17,7 @@
   import svelte from "/src/lib/iconsSkill/svelte.svg";
   import js from "/src/lib/iconsSkill/js.svg";
   import Rectangle from "../rectangle.svelte";
+  import lines from "/src/lib/images/lines.svg";
 </script>
 
 <main>
@@ -139,6 +140,18 @@
         />
       </div>
     </div>
+
+    <div class="linesBlue">
+      <div class="workTill">Work & Experience</div>
+      <div class="linesOfBlueness">
+        <div class="componentOne">
+          <img src={lines} alt="blue line" class="transform" />
+        </div>
+        <div class="componentOne">
+          <img src={lines} alt="blue line" class="transform" />
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 
@@ -238,7 +251,7 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 12px;
     grid-row-gap: 40px;
-    margin: 0 0 0 50px;
+    margin: 0 0 80px 50px;
   }
   .skillNexp {
     width: 25%;
@@ -250,5 +263,17 @@
   .detailOfexp {
     font-weight: 300;
     font-size: 1.4vw;
+  }
+  .linesBlue {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .linesOfBlueness {
+    width: 80%;
+  }
+  .componentOne {
+    margin: -4px 0;
   }
 </style>

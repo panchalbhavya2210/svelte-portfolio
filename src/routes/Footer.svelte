@@ -83,6 +83,7 @@
     font-family: Outfit;
     color: #fff;
     margin: 80px 0 0 0;
+    background-color: rgba(0, 0, 69, 0.534);
   }
   .footerFlex {
     width: 100%;

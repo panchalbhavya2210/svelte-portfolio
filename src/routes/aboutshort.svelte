@@ -59,7 +59,7 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
-    margin: 50px 0 0 0;
+    margin: 100px 0 0 0;
   }
   .brightColor {
     color: var(--bright-blue);
@@ -93,7 +93,7 @@
   @media only screen and (max-width: 675px) {
     .aboutMeInShort {
       display: block;
-      margin: 50px 0 0 0;
+      margin: 100px 0 0 0;
       width: 100%;
     }
     .firstPhoto {
