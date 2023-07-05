@@ -61,7 +61,7 @@
 <style>
   .margin {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: Outfit;
     position: relative;
     top: 70px;
@@ -206,6 +206,12 @@
       100% {
         transform: rotate(0deg) scale(0.8);
       }
+    }
+  }
+  @media only screen and (max-height: 555px) {
+    .exploreBtn,
+    .myDetailsInSummary {
+      display: none;
     }
   }
 </style>
