@@ -124,7 +124,7 @@
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    background-color: #050f1ee2;
+    background-color: #010203b4;
     backdrop-filter: blur(5px);
     z-index: 555;
   }

@@ -27,7 +27,7 @@
             Stock Manager | Here i worked more than 2 years and i did management
             of the company stock and other works.
           </p>
-          <p class="highLightDim">2020-2022</p>
+          <p class="highLightDim italic">2020-2022</p>
         </div>
       </div>
       <div class="componentOne">
@@ -42,7 +42,7 @@
             office by myself. Creating and parceling the order while also
             managing the stock.
           </p>
-          <p class="highLightDim">2022 - Currently Working</p>
+          <p class="highLightDim italic">2022 - Currently Working</p>
         </div>
       </div>
     </div>
@@ -56,6 +56,7 @@
     height: 200px;
     justify-content: space-between;
     align-items: center;
+    margin: 40px 0 0 0;
   }
   .linesOfBlueness {
     width: 75%;
@@ -78,6 +79,7 @@
   .highLightDim {
     font-weight: 300;
     margin: 4px 0;
+    color: #d0d0d0;
   }
   .transform {
     pointer-events: none;
@@ -87,5 +89,9 @@
     height: 200px;
     margin: 0 20px 0 30px;
     font-weight: 300;
+  }
+  .italic {
+    font-style: italic;
+    color: #c6c6c6;
   }
 </style>
