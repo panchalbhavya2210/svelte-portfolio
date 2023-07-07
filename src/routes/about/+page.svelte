@@ -12,7 +12,7 @@
     <div class="aboutMeCent">
       <div class="rectAbt">
         <img src={blueLine} alt="" srcset="" class="rotate" />
-        <p class="abtIndex">ABOUT ME...</p>
+        <p class="abtIndex">ABOUT ME</p>
       </div>
     </div>
     <Mydetails />
@@ -59,5 +59,21 @@
     animation: rotate 7s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
     z-index: 1;
     pointer-events: none;
+  }
+  @media only screen and (max-width: 675px) {
+    .aboutMeCent {
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+    }
+    .rectAbt {
+      width: 90%;
+      height: 90%;
+      /* background: linear-gradient(rgb(3, 0, 46), rgb(0, 157, 255)); */
+    }
+    .abtIndex {
+      position: absolute;
+      font-size: 2.5rem;
+    }
   }
 </style>

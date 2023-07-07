@@ -56,9 +56,18 @@ body {
     transform: rotate(0deg) scale(2);
   }
   50% {
-    transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(0.8);
   }
   100% {
     transform: rotate(360deg) scale(2);
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .designBtn {
+    margin: 8px 0;
+  }
+  .designBtn a {
+    font-size: 1rem;
   }
 }

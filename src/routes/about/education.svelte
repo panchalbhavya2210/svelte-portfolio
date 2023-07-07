@@ -123,4 +123,9 @@
     font-style: italic;
     color: #c6c6c6;
   }
+  @media only screen and (max-width: 675px) {
+    .schoolling {
+      display: none;
+    }
+  }
 </style>

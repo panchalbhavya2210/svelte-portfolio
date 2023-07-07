@@ -18,8 +18,8 @@
 
 <style>
   .rect {
-    width: 150px;
-    height: 120px;
+    width: 80%;
+    height: 130%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,8 +33,8 @@
     text-align: center;
   }
   .img {
-    width: 40px;
-    height: 40px;
+    width: 20%;
+    height: 20%;
     margin: 0 0 20px 0;
     pointer-events: none;
   }

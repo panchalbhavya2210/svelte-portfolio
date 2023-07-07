@@ -89,4 +89,19 @@
     font-weight: 300;
     font-size: 1.4vw;
   }
+  @media only screen and (max-width: 675px) {
+    .iconsMania {
+      width: 100%;
+      display: block;
+    }
+
+    .iconsContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-column-gap: 15px;
+      grid-row-gap: 35px;
+      margin: 15px;
+    }
+  }
 </style>

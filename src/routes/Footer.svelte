@@ -146,6 +146,11 @@
     width: 100%;
   }
   @media only screen and (max-width: 675px) {
+    .footerMain {
+      width: 90%;
+      background-color: rgba(255, 0, 0, 0);
+      margin: 100px 0 0 0;
+    }
     .madeByLogo {
       font-size: 1.5rem;
       font-weight: 500;
