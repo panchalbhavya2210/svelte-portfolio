@@ -67,7 +67,7 @@
   .iconsMania {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
   }
   .iconsContainer {
     width: 70%;
@@ -76,11 +76,11 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 12px;
     grid-row-gap: 40px;
-    margin: 0 0 80px 50px;
+    margin: 0 0 80px 30px;
   }
   .skillNexp {
-    width: 25%;
-    margin: 0 40px 0 0;
+    width: 20%;
+    margin: 0 00px 0 60px;
   }
   .titleOfExp {
     font-size: 2vw;

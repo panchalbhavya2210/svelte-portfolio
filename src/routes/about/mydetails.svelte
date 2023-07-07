@@ -66,8 +66,8 @@
     margin: 30px 0;
   }
   .b {
-    width: 130px;
-    height: 130px;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
     border-radius: 100%;
     filter: brightness(105%) saturate(100%);
@@ -90,8 +90,8 @@
     align-items: center;
   }
   .myImgLinks {
-    height: 400px;
-    margin: 0 0 0 90px;
+    height: 300px;
+    margin: 0 0 0 5%;
   }
   .aboutMe {
     width: 65%;

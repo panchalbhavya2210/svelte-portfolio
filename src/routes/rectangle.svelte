@@ -38,4 +38,10 @@
     margin: 0 0 20px 0;
     pointer-events: none;
   }
+  @media only screen and (max-width: 675px) {
+    .rect {
+      width: 150px;
+      height: 120px;
+    }
+  }
 </style>

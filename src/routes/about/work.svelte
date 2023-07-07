@@ -24,14 +24,14 @@
             Param Enterprise<span class="brightColor">.</span>
           </p>
           <p class="highLightDim">
-            Stock Manager | Here i worked more than 2 years and i did management
-            of the company stock and other works.
+            Stock Manager | Here i worked for 2 years and i did management of
+            the company stock and other works.
           </p>
           <p class="highLightDim italic">2020-2022</p>
         </div>
       </div>
       <div class="componentOne">
-        <img src={dot} alt="blue line" class="transform" />
+        <img src={dot} alt="blue line" class="transform dotmove" />
         <div class="detail">
           <p class="highLight">
             Perpetual Pharmaceuticals<span class="brightColor">.</span>
@@ -59,8 +59,8 @@
     margin: 40px 0 0 0;
   }
   .linesOfBlueness {
-    width: 75%;
-    margin: 0 30px 0 0;
+    width: 67%;
+    margin: 0 40px 0 0;
   }
   .componentOne {
     margin: -2px 0;
@@ -85,15 +85,16 @@
     pointer-events: none;
   }
   .workTill {
-    width: 25%;
+    width: 20%;
     height: 200px;
-    margin: 0 20px 0 30px;
+    margin: 0 20px 0 60px;
     font-weight: 300;
   }
   .italic {
     font-style: italic;
     color: #c6c6c6;
   }
+
   @media only screen and (max-width: 675px) {
     .linesBlue {
       display: none;

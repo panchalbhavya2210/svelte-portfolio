@@ -12,7 +12,8 @@
         >
       </p>
       <p>
-        This is where i went to school, college and learned things i know today.
+        This is where i went to school, college <br /> and learned things i know
+        today.
       </p>
     </div>
     <div class="linesOfBlueness">
@@ -88,8 +89,8 @@
   }
 
   .linesOfBlueness {
-    width: 75%;
-    margin: 0 30px 0 0;
+    width: 67%;
+    margin: 0 40px 0 0;
   }
   .componentOne {
     margin: -2px 0;
@@ -114,9 +115,9 @@
     pointer-events: none;
   }
   .workTill {
-    width: 25%;
+    width: 22%;
     height: 200px;
-    margin: 0 20px 0 30px;
+    margin: 0 35px 0 60px;
     font-weight: 300;
   }
   .italic {
