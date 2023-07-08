@@ -6,7 +6,7 @@
 <main>
   <div class="schoolling">
     <div class="workTill">
-      <p class="highLight">
+      <p class="highLight highLightTitle">
         Schooling <span class="brightColor">&</span> Education<span
           class="brightColor">.</span
         >
@@ -126,7 +126,24 @@
   }
   @media only screen and (max-width: 675px) {
     .schoolling {
-      display: none;
+      display: block;
+      height: 700px;
+    }
+    .workTill {
+      width: 90%;
+      height: 120px;
+      margin: 30px 0 0px 30px;
+    }
+    .highLight {
+      font-size: 1rem;
+      margin: 5px 0 5px 0;
+    }
+    .linesOfBlueness {
+      width: 80%;
+      margin: 0 0 0 30px;
+    }
+    .highLightTitle {
+      font-size: 1.5rem;
     }
   }
 </style>

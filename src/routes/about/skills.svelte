@@ -101,10 +101,10 @@
       grid-template-rows: repeat(6, 1fr);
       grid-column-gap: 15px;
       grid-row-gap: 35px;
-      margin: 30px;
+      margin: 20px;
     }
     .skillNexp {
-      width: 100%;
+      width: 90%;
       margin: 0 0 0 30px;
     }
     .titleOfExp {

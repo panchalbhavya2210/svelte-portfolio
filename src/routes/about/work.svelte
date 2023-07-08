@@ -23,7 +23,7 @@
           <p class="highLight">
             Param Enterprise<span class="brightColor">.</span>
           </p>
-          <p class="highLightDim">
+          <p class="highLightDim noneForPhone">
             Stock Manager | Here i worked for 2 years and i did management of
             the company stock and other works.
           </p>
@@ -87,7 +87,7 @@
   .workTill {
     width: 20%;
     height: 200px;
-    margin: 0 20px 0 60px;
+    margin: 0 35px 0 60px;
     font-weight: 300;
   }
   .italic {
@@ -97,6 +97,22 @@
 
   @media only screen and (max-width: 675px) {
     .linesBlue {
+      display: block;
+      height: 370px;
+    }
+    .workTill {
+      width: 90%;
+      height: 120px;
+      margin: 30px 0 0px 30px;
+    }
+    .highLight {
+      font-size: 1.5rem;
+    }
+    .linesOfBlueness {
+      width: 80%;
+      margin: 0 0 0 30px;
+    }
+    .noneForPhone {
       display: none;
     }
   }

@@ -8,7 +8,7 @@
   <div class="lengthMyAbt">
     <div class="myImgLinks">
       <div class="imageHolder">
-        <img src={gitIcon} alt="my img" class="b" />
+        <img src={B} alt="my img" class="b" />
       </div>
       <div class="linkHolder">
         <button class="designBtn">
@@ -122,7 +122,7 @@
       margin: 60px 0 0 30px;
     }
     .titleO {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-weight: 500;
       margin: 0 0 10px 0;
     }
