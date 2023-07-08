@@ -66,8 +66,8 @@
     margin: 50px 0;
   }
   .b {
-    width: 70%;
-    height: 70%;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
     border-radius: 100%;
     filter: brightness(105%) saturate(100%);

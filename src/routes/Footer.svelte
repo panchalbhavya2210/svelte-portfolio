@@ -145,6 +145,7 @@
     height: 2px;
     width: 100%;
   }
+
   @media only screen and (max-width: 675px) {
     .footerMain {
       width: 90%;
