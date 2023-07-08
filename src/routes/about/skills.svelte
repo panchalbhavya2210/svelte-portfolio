@@ -101,7 +101,18 @@
       grid-template-rows: repeat(6, 1fr);
       grid-column-gap: 15px;
       grid-row-gap: 35px;
-      margin: 15px;
+      margin: 30px;
+    }
+    .skillNexp {
+      width: 100%;
+      margin: 0 0 0 30px;
+    }
+    .titleOfExp {
+      font-size: 1.5rem;
+    }
+    .detailOfexp {
+      width: 90%;
+      font-size: 1rem;
     }
   }
 </style>

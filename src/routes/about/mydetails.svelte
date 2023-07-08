@@ -63,7 +63,7 @@
 
 <style>
   .lengthMyAbt {
-    margin: 30px 0;
+    margin: 50px 0;
   }
   .b {
     width: 70%;
@@ -124,11 +124,11 @@
     .titleO {
       font-size: 1.2rem;
       font-weight: 500;
-      margin: 0 0 15px 0;
+      margin: 0 0 10px 0;
     }
     .aboutMe {
       width: 90%;
-      margin: 0 0px 0 25px;
+      margin: 0 0px 0 30px;
     }
     .myDetails {
       font-size: 1rem;
