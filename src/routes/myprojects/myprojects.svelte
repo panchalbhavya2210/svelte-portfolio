@@ -5,11 +5,13 @@
 
 <main>
   <div class="projectHead">
-    <p class="highLight">Side Projects<span class="brightColor">.</span></p>
-    <p class="highLightDim">
-      This is the all project i've created in past one year. This all project
-      taught me a new thing in it's own way and problem.
-    </p>
+    <div class="detailWidth">
+      <p class="highLight">Side Projects<span class="brightColor">.</span></p>
+      <p class="highLightDim">
+        This is the all project i've created in past one year. This all project
+        taught me a new thing in it's own way and problem.
+      </p>
+    </div>
     <div class="projectFirst">
       <div class="parent">
         <div class="div1 divHeight">
@@ -281,20 +283,22 @@
     .projectHead {
       width: 100%;
       display: block;
-      margin: 400px 0 0 0;
+      margin: 40px 0 0 0;
     }
-
+    .detailWidth {
+      width: 90%;
+    }
     .projectFirst {
       width: 100%;
     }
     .parent {
-      width: 100%;
+      width: 90%;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, 1fr);
       grid-column-gap: 0px;
       grid-row-gap: 20px;
-      margin: 0 0 0 20px;
+      margin: 20px 10px 40px 10px;
     }
     .div1,
     .div2,
