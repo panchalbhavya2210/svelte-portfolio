@@ -37,8 +37,8 @@
 </script>
 
 <svelte:head>
-  <title>Home</title>
-  <meta name="description" content="Svelte demo app" />
+  <title>Bhavya Panchal - fullstack dev</title>
+  <meta name="description" content="Bhavya Panchal's Portfolio" />
 </svelte:head>
 
 <section class="margin">
