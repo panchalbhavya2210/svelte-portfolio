@@ -283,7 +283,7 @@
     .projectHead {
       width: 100%;
       display: block;
-      margin: 400px 0 0 0;
+      margin: 450px 0 0 0;
     }
     .projectTitleSecond {
       width: 100%;

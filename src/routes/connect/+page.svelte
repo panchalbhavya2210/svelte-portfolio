@@ -4,6 +4,7 @@
   import dis from "/src/lib/icons/dc.svg";
   import call from "/src/lib/icons/call.svg";
   import red from "/src/lib/icons/red.svg";
+  import twitter from "/src/lib/icons/twitter.svg";
 </script>
 
 <main>
@@ -66,11 +67,11 @@
       </div>
     </div>
     <div class="finalConnect">
-      <div class="connectTitle">
+      <div class="connectTitle on">
         <p><span class="brightColor">Thanks</span></p>
         <p>For Viewing My Site<span class="brightColor">.</span></p>
       </div>
-      <div class="detailTitle">
+      <div class="detailTitleN">
         <p>
           Thanks for spending your valuable time to view my site. If you've made
           it this far and you liked the work i did, you can contact me on below
@@ -85,41 +86,73 @@
         <p>Details<span class="brightColor">.</span></p>
       </div>
       <div class="detailTitle">
-        <div class="scatterAll">
-          <div class="contactMain">
+        <div class="contactMain">
+          <a href="mailto:panchalbhavya2210@gmail.com">
             <div class="compOne">
               <div class="imgAll">
-                <img src={at} alt="" />
+                <img src={at} alt="" class="icon" />
               </div>
               <div class="detailsFocus">
-                <p>Call</p>
+                <p class="whichCont">E-mail</p>
+                <p class="thisCont">panchalbhavya2210@gmail.com</p>
               </div>
             </div>
+          </a>
+          <a href="tel:+919081865254">
             <div class="compOne">
               <div class="imgAll">
-                <img src={call} alt="" />
+                <img src={call} alt="" class="callIcon" />
               </div>
               <div class="detailsFocus">
-                <p>Call</p>
+                <p class="whichCont">Call</p>
+                <p class="thisCont">+91 90818 65254</p>
               </div>
             </div>
+          </a>
+          <a
+            href="https://discord.com/users/705665317799591996"
+            target="_blank"
+          >
             <div class="compOne">
               <div class="imgAll">
-                <img src={dis} alt="" />
+                <img src={dis} alt="" class="icon" />
               </div>
               <div class="detailsFocus">
-                <p>Call</p>
+                <p class="whichCont">Discord</p>
+                <p class="thisCont">#panchalbhavya2210</p>
               </div>
             </div>
+          </a>
+          <a
+            href="https://www.reddit.com/user/agent-47---"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div class="compOne">
               <div class="imgAll">
-                <img src={red} alt="" />
+                <img src={red} alt="" class="icon" />
               </div>
               <div class="detailsFocus">
-                <p>Call</p>
+                <p class="whichCont">Reddit</p>
+                <p class="thisCont">u/agent-47---</p>
               </div>
             </div>
-          </div>
+          </a>
+          <a
+            href="https://twitter.com/panchalbhavya22"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="compOne">
+              <div class="imgAll">
+                <img src={twitter} alt="" class="icon" />
+              </div>
+              <div class="detailsFocus">
+                <p class="whichCont">Twitter</p>
+                <p class="thisCont">@panchalbhavya22</p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -184,17 +217,108 @@
     margin: 0 0 0 50px;
     font-size: 2vw;
     font-family: 400;
+    height: 60px;
+  }
+  .on {
     height: 100px;
   }
-  .detailTitle {
-    width: 70%;
+  .detailTitleN {
+    width: 80%;
     font-size: 1.7vw;
     font-weight: 300;
-    margin: 0 70px 0 0;
+    margin: 0 60px 0 0;
+  }
+  .detailTitle {
+    width: 90%;
+    margin: 0 0 0 50px;
+  }
+  .contactMain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  .callIcon {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+  .compOne {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: 0.5s;
+    height: 100px;
+  }
+  .whichCont {
+    font-size: 1.5vw;
+  }
+  .thisCont {
+    font-size: 1.2vw;
+    font-weight: 300;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+  a:hover {
+    filter: invert(0%) sepia(69%) saturate(6288%) hue-rotate(118deg)
+      brightness(103%) contrast(102%);
   }
   @media only screen and (max-width: 675px) {
+    .connectTitle p {
+      width: 200px;
+    }
+    .on {
+      width: 70%;
+      height: 60px;
+      margin: 30px 0 0 30px;
+      font-size: 1.2rem;
+    }
+    .detailTitleN {
+      width: 90%;
+      font-size: 1rem;
+      margin: 0;
+      margin: 0 0 0 20px;
+    }
     .abs {
       font-size: 2rem;
+    }
+    .contactMain {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      margin: 0;
+    }
+    .whichCont,
+    .thisCont {
+      font-size: 0.8rem;
+    }
+    .callIcon {
+      margin: 15px;
+    }
+    .detailTitle {
+      margin: 0;
+    }
+    .finalConnect {
+      width: 100%;
+      height: 200px;
+      display: block;
+    }
+    .connectTitle {
+      margin: 30px 0 0 20px;
+      font-size: 1.2rem;
     }
   }
 </style>

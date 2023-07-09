@@ -105,7 +105,7 @@
     .secondDivDetails {
       width: 100%;
 
-      margin: 0 0 0 0;
+      margin: 0px 0 0 0;
     }
     .secondDivDetails h1 {
       margin: 0 0 0 30px;

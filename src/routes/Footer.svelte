@@ -37,16 +37,22 @@
         <img src={linksSvg} alt="links-svg" class="imgWidthAdj listAdjust" />
         <div class="listOfLinks">
           <p class="hoverP">
-            <a href="/">Github Profile</a>
+            <a href="https://github.com/panchalbhavya2210" target="_blank"
+              >Github Profile</a
+            >
           </p>
           <p class="hoverP">
-            <a href="/about">Twitter</a>
+            <a href="https://twitter.com/panchalbhavya22" target="_blank"
+              >Twitter</a
+            >
           </p>
           <p class="hoverP">
-            <a href="/myprojects">Reddit</a>
+            <a href="https://www.reddit.com/user/agent-47---" target="_blank"
+              >Reddit</a
+            >
           </p>
           <p class="hoverP">
-            <a href="/connect">G-Mail</a>
+            <a href="mailto:panchalbhavya2210@gmail.com">G-Mail</a>
           </p>
         </div>
       </div>
@@ -58,16 +64,18 @@
         />
         <div class="listOfRes">
           <p class="hoverP">
-            <a href="/">Wallpaper</a>
+            <a href="https://unsplash.com/@_esther_" target="_blank"
+              >Wallpaper</a
+            >
           </p>
           <p class="hoverP">
-            <a href="/about">Figma(Designing)</a>
+            <a href="https://figma.com" target="_blank">Figma(Designing)</a>
           </p>
           <p class="hoverP">
-            <a href="/myprojects">Outfit(Font)</a>
+            <a href="https://fonts.google.com" target="_blank">Outfit(Font)</a>
           </p>
           <p class="hoverP">
-            <a href="/connect">Iconify(Icons)</a>
+            <a href="https://iconify.design" target="_blank">Iconify(Icons)</a>
           </p>
         </div>
       </div>

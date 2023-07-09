@@ -1,18 +1,25 @@
 <script>
   import { page } from "$app/stores";
   import "./styles.css";
-  import logo from "../lib/icons/image-removebg-preview.png";
 
   /**
    * @type {boolean}
    */
   let toggleNav;
+
+  function topScroll() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 </script>
 
 <header>
   <div class="positionAbsoluteHeader">
     <div class="myNameLogo">
-      <div class="imgLogo">
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div class="imgLogo" on:click={topScroll}>
         <svg
           width="356"
           height="356"
@@ -163,9 +170,7 @@
     font-family: Outfit;
     z-index: 555;
   }
-  .brightColor {
-    color: var(--bright-blue);
-  }
+
   .myNameLogo {
     font-size: 1vw;
     margin: 0 0 0 30px;

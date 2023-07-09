@@ -20,6 +20,20 @@
       return "Good Evening 👋,";
     }
   }
+
+  function runToAss() {
+    if (window.innerWidth < 555) {
+      window.scrollTo({
+        top: 690,
+        behavior: "smooth",
+      });
+    } else {
+      window.scrollTo({
+        top: 550,
+        behavior: "smooth",
+      });
+    }
+  }
 </script>
 
 <svelte:head>
@@ -45,7 +59,7 @@
           A web developer and UI designer who loves turning ideas into reality.
           I'm always looking for ways to improve and grow in my craft!
         </p>
-        <button class="exploreBtn"
+        <button class="exploreBtn" on:click={runToAss}
           ><span class="black">EXPLORE <br /> IT.</span>
           <img src={arrow} alt="down-rotated-arrow" class="arrow" />
         </button>
