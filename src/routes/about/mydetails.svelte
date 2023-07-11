@@ -12,14 +12,18 @@
       </div>
       <div class="linkHolder">
         <button class="designBtn">
-          <a class="flex" href="/about">
+          <a
+            class="flex"
+            href="https://github.com/panchalbhavya2210"
+            target="_blank"
+          >
             <img src={gitIcon} alt="right-arrow" class="gitIcon" />
             <span>Github Profile</span>
           </a>
         </button>
         <br />
         <button class="designBtn">
-          <a class="flex" href="/myprojects">
+          <a class="flex" href="/connect">
             <img src={bigArrow} alt="right-arrow" class="btnBlue" />
             <span>Contact Me</span>
           </a>
