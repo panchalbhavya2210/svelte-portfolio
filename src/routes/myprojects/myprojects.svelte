@@ -1,6 +1,12 @@
 <script>
   import "../styles.css";
   import bigArrow from "/src/lib/icons/big-arrow.svg";
+  import html from "/src/lib/iconsSkill/html.svg";
+  import css from "/src/lib/iconsSkill/css.svg";
+  import js from "/src/lib/iconsSkill/js.svg";
+  import api from "/src/lib/iconsSkill/api.svg";
+  import ls from "/src/lib/iconsSkill/localstorage.svg";
+  import fbase from "/src/lib/iconsSkill/firebase.svg";
 </script>
 
 <main>
@@ -9,7 +15,7 @@
       <p class="highLight">Side Projects<span class="brightColor">.</span></p>
       <p class="highLightDim">
         This is the all project i've created in past one year. This all project
-        taught me a new thing in it's own way and problem.
+        taught me a new thing in it's own way and also how to solve problems.
       </p>
     </div>
     <div class="projectFirst">
@@ -35,6 +41,35 @@
               This website shows weather of different and our own locations
               weather.
             </p>
+
+            <div class="stackUsed">
+              <p>Stack Used</p>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={html} alt="htmlLogo" />
+                </span>
+                HTML5
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={css} alt="cssLogo" />
+                </span>
+                CSS3
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={js} alt="jsLogo" />
+                </span>
+                JavaScript
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={api} alt="api logo" />
+                </span>
+                Weather API
+              </div>
+            </div>
+
             <button class="designBtn">
               <a
                 class="flex"
@@ -68,6 +103,33 @@
               This site helps us to generate strong password and also store them
               locally.
             </p>
+            <div class="stackUsed">
+              <p>Stack Used</p>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={html} alt="htmlLogo" />
+                </span>
+                HTML5
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={css} alt="cssLogo" />
+                </span>
+                CSS3
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={js} alt="jsLogo" />
+                </span>
+                JavaScript
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={ls} alt="localstorage" />
+                </span>
+                LocalStorage API
+              </div>
+            </div>
             <button class="designBtn">
               <a
                 class="flex"
@@ -101,6 +163,34 @@
               This website was created for assignment uploading and downloading
               for students.
             </p>
+
+            <div class="stackUsed">
+              <p>Stack Used</p>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={html} alt="htmlLogo" />
+                </span>
+                HTML5
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={css} alt="cssLogo" />
+                </span>
+                CSS3
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={js} alt="jsLogo" />
+                </span>
+                JavaScript
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={fbase} alt="firbase" />
+                </span>
+                Firebase
+              </div>
+            </div>
             <button class="designBtn">
               <a
                 class="flex"
@@ -133,6 +223,28 @@
             <p class="det">
               Musicbytes. It uses music i uploaded on server and play them.
             </p>
+            <div class="stackUsed">
+              <p>Stack Used</p>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={html} alt="htmlLogo" />
+                </span>
+                HTML5
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={css} alt="cssLogo" />
+                </span>
+                CSS3
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={js} alt="jsLogo" />
+                </span>
+                JavaScript
+              </div>
+              <div class="logoPlusStackName" />
+            </div>
             <button class="designBtn">
               <a
                 class="flex"
@@ -173,6 +285,33 @@
               This is also a side project. which taught me how to use api and it
               was very helpful.
             </p>
+            <div class="stackUsed">
+              <p>Stack Used</p>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={html} alt="htmlLogo" />
+                </span>
+                HTML5
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={css} alt="cssLogo" />
+                </span>
+                CSS3
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={js} alt="jsLogo" />
+                </span>
+                JavaScript
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={api} alt="api logo" />
+                </span>
+                Api Ninja's Currency Api
+              </div>
+            </div>
             <button class="designBtn">
               <a
                 class="flex"
@@ -181,6 +320,143 @@
               >
                 <img src={bigArrow} alt="right-arrow" class="btnBlue" />
                 <span>Visit</span>
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="div6 divHeight">
+          <div class="logoStyling">
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M2.42857 1H9.57143C9.95031 1 10.3137 1.15051 10.5816 1.41842C10.8495 1.68633 11 2.04969 11 2.42857V9.57143C11 9.95031 10.8495 10.3137 10.5816 10.5816C10.3137 10.8495 9.95031 11 9.57143 11H2.42857C2.04969 11 1.68633 10.8495 1.41842 10.5816C1.15051 10.3137 1 9.95031 1 9.57143V2.42857C1 2.04969 1.15051 1.68633 1.41842 1.41842C1.68633 1.15051 2.04969 1 2.42857 1Z"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6.00001 6.71422C5.60552 6.71422 5.28572 6.39442 5.28572 5.99993C5.28572 5.60544 5.60552 5.28564 6.00001 5.28564C6.3945 5.28564 6.71429 5.60544 6.71429 5.99993C6.71429 6.39442 6.3945 6.71422 6.00001 6.71422Z"
+                fill="black"
+              />
+              <path
+                d="M3.14287 6.71422C3.53736 6.71422 3.85716 6.39442 3.85716 5.99993C3.85716 5.60544 3.53736 5.28564 3.14287 5.28564C2.74839 5.28564 2.42859 5.60544 2.42859 5.99993C2.42859 6.39442 2.74839 6.71422 3.14287 6.71422Z"
+                fill="black"
+              />
+              <path
+                d="M8.85714 6.71422C9.25163 6.71422 9.57142 6.39442 9.57142 5.99993C9.57142 5.60544 9.25163 5.28564 8.85714 5.28564C8.46265 5.28564 8.14285 5.60544 8.14285 5.99993C8.14285 6.39442 8.46265 6.71422 8.85714 6.71422Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <div class="titleOfPrj">
+            <p class="title">Todo App</p>
+            <p class="det">
+              This is also a side project. which taught me how to use api and it
+              was very helpful.
+            </p>
+            <div class="stackUsed">
+              <p>Stack Used</p>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={html} alt="htmlLogo" />
+                </span>
+                HTML5
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={css} alt="cssLogo" />
+                </span>
+                CSS3
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={js} alt="jsLogo" />
+                </span>
+                JavaScript
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={fbase} alt="firbase" />
+                </span>
+                Firebase
+              </div>
+            </div>
+            <button class="designBtn">
+              <a
+                class="flex"
+                href="https://bytetask.vercel.app"
+                target="_blank"
+              >
+                <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+                <span>Visit</span>
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="div7 divHeight">
+          <div class="logoStyling">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM8 10V12H16V10H8Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <div class="titleOfPrj">
+            <p class="title">Realtime Chat App</p>
+            <p class="det">
+              This is also a side project. which taught me how to use api and it
+              was very helpful.
+            </p>
+            <div class="stackUsed">
+              <p>Stack Used</p>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={html} alt="htmlLogo" />
+                </span>
+                HTML5
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={css} alt="cssLogo" />
+                </span>
+                CSS3
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={js} alt="jsLogo" />
+                </span>
+                JavaScript
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={fbase} alt="firbase" />
+                </span>
+                Firebase
+              </div>
+            </div>
+            <button class="designBtn">
+              <a
+                class="flex"
+                href="https://github.com/panchalbhavya2210/chat_app"
+                target="_blank"
+              >
+                <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+                <span>View Source Code</span>
               </a>
             </button>
           </div>
@@ -279,6 +555,24 @@
     font-size: 1rem;
     font-weight: 300;
   }
+  .logoPlusStackName {
+    display: flex;
+    height: 25px;
+    align-items: center;
+    margin: 10px 0 5px 0;
+    font-size: 1.2vw;
+  }
+  .imgBorder img {
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 0 0;
+  }
+  .stackUsed {
+    background-color: rgb(0, 33, 55);
+    margin: 15px 0 0 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
   @media only screen and (max-width: 675px) {
     .projectHead {
       width: 100%;
@@ -295,16 +589,18 @@
       width: 90%;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(4, 1fr);
+      grid-template-rows: repeat(7, 1fr);
       grid-column-gap: 0px;
-      grid-row-gap: 20px;
+      grid-row-gap: 0px;
       margin: 20px 10px 40px 10px;
     }
     .div1,
     .div2,
     .div3,
     .div4,
-    .div5 {
+    .div5,
+    .div6,
+    .div7 {
       width: 87%;
       grid-area: auto;
       margin: 0 0 0 20px;
