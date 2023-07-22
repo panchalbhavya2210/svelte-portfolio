@@ -7,6 +7,8 @@
   import api from "/src/lib/iconsSkill/api.svg";
   import ls from "/src/lib/iconsSkill/localstorage.svg";
   import fbase from "/src/lib/iconsSkill/firebase.svg";
+  import exp from "/src/lib/iconsSkill/express.svg";
+  import socket from "/src/lib/iconsSkill/socket.svg";
 </script>
 
 <main>
@@ -424,9 +426,10 @@
             </p>
             <div class="stackUsed">
               <p>Stack Used</p>
+
               <div class="logoPlusStackName">
                 <span class="imgBorder">
-                  <img src={html} alt="htmlLogo" />
+                  <img src={html} alt="cssLogo" />
                 </span>
                 HTML5
               </div>
@@ -444,9 +447,15 @@
               </div>
               <div class="logoPlusStackName">
                 <span class="imgBorder">
-                  <img src={fbase} alt="firbase" />
+                  <img src={exp} alt="Express" />
                 </span>
-                Firebase
+                Express JS
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={socket} alt="Express" />
+                </span>
+                Socket IO
               </div>
             </div>
             <button class="designBtn">
@@ -566,6 +575,7 @@
     width: 20px;
     height: 20px;
     margin: 5px 10px 0 0;
+    pointer-events: none;
   }
   .stackUsed {
     background-color: rgb(0, 33, 55);
@@ -574,6 +584,13 @@
     border-radius: 10px;
   }
   @media only screen and (max-width: 675px) {
+    .logoPlusStackName {
+      display: flex;
+      height: 25px;
+      align-items: center;
+      margin: 10px 0 5px 0;
+      font-size: 1rem;
+    }
     .projectHead {
       width: 100%;
       display: block;

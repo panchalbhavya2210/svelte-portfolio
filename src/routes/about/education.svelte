@@ -37,7 +37,7 @@
           </p>
 
           <p class="highLightDim">B.com (Drop Out 3rd Sem)</p>
-          <p class="highLightDim italic">2019 - Currently Working</p>
+          <p class="highLightDim italic">2019</p>
         </div>
       </div>
       <div class="componentOne">
@@ -144,6 +144,12 @@
     }
     .highLightTitle {
       font-size: 1.5rem;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .linesOfBlueness {
+      width: 80%;
+      margin: 0 0 0 65px;
     }
   }
 </style>

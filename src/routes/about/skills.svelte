@@ -75,7 +75,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 12px;
-    grid-row-gap: 40px;
+    grid-row-gap: 50px;
     margin: 0 0 80px 30px;
   }
   .skillNexp {

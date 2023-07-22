@@ -84,9 +84,9 @@
     height: 130px;
     object-fit: cover;
     border-radius: 100%;
-    filter: brightness(105%) saturate(100%);
+    filter: brightness(95%) saturate(100%);
     pointer-events: none;
-    background: linear-gradient(-45deg, rgb(93, 236, 255), rgb(11, 0, 137));
+    background: linear-gradient(-45deg, rgb(1, 49, 55), rgb(11, 0, 137));
     pointer-events: none;
   }
 

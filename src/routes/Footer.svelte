@@ -199,7 +199,7 @@
     }
   }
 
-  @media screen and (min-width: 1024px) and (min-height: 1310px) {
+  @media screen and (min-width: 1310px) {
     .listOfNav {
       position: absolute;
       top: 25px;
@@ -209,7 +209,7 @@
     }
 
     .listOfLinks {
-      left: 190px;
+      left: 200px;
     }
 
     .listOfRes {
