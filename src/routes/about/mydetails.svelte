@@ -1,5 +1,5 @@
 <script>
-  import B from "/src/lib/images/my-image-removed-bg.png";
+  import B from "/src/lib/images/my-image-removed-bg.webp";
   import bigArrow from "/src/lib/icons/big-arrow.svg";
   import gitIcon from "/src/lib/icons/github.svg";
 </script>
