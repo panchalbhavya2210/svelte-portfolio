@@ -9,6 +9,8 @@
   import fbase from "/src/lib/iconsSkill/firebase.svg";
   import exp from "/src/lib/iconsSkill/express.svg";
   import socket from "/src/lib/iconsSkill/socket.svg";
+  import skit from "/src/lib/iconsSkill/svelte.svg";
+  import tailwind from "/src/lib/iconsSkill/tailwind-svgrepo-com.svg";
 </script>
 
 <main>
@@ -466,6 +468,71 @@
               >
                 <img src={bigArrow} alt="right-arrow" class="btnBlue" />
                 <span>View Source Code</span>
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="div8 divHeight">
+          <div class="logoStyling">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-article"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="#000000"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"
+              />
+              <path d="M7 8h10" />
+              <path d="M7 12h10" />
+              <path d="M7 16h10" />
+            </svg>
+          </div>
+          <div class="titleOfPrj">
+            <p class="title">Realtime Blog site</p>
+            <p class="det">
+              I created this project in a week or two. this project was created
+              using svelte & firebase.
+            </p>
+            <div class="stackUsed">
+              <p>Stack Used</p>
+
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={skit} alt="svelte" />
+                </span>
+                Svelte
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={fbase} alt="Firebase" />
+                </span>
+                Firebase
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={tailwind} alt="tailwind css" />
+                </span>
+                Tailwind CSS
+              </div>
+              <div class="logoPlusStackName" />
+              <div class="logoPlusStackName" />
+            </div>
+            <button class="designBtn">
+              <a
+                class="flex"
+                href="https://byte-blog.vercel.app"
+                target="_blank"
+              >
+                <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+                <span>Visit</span>
               </a>
             </button>
           </div>
