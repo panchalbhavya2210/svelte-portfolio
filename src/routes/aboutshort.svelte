@@ -1,5 +1,6 @@
-<script>
-  import B from "../lib/images/my-image-removed-bg.webp";
+<script defer>
+  import B from "../lib/images/Resize_my-image-removed-bg.webp";
+  // import B from "../lib/images/my-image-removed-bg.webp";
   import "./styles.css";
   import bigArrow from "../lib/icons/big-arrow.svg";
 </script>
@@ -7,7 +8,15 @@
 <main>
   <div class="aboutMeInShort">
     <div class="firstPhoto">
-      <img src={B} alt="" srcset="" class="b" />
+      <img
+        src={B}
+        alt=""
+        srcset=""
+        class="b"
+        loading="lazy"
+        width="130"
+        height="130"
+      />
     </div>
 
     <div class="secondDivDetails">
@@ -36,13 +45,27 @@
 
       <button class="designBtn">
         <a class="flex" href="/about">
-          <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+          <img
+            src={bigArrow}
+            alt="right-arrow"
+            class="btnBlue"
+            width="20"
+            height="20"
+            aria-label="about button"
+          />
           <span>About Me</span>
         </a>
       </button>
       <button class="designBtn">
         <a class="flex" href="/myprojects">
-          <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+          <img
+            src={bigArrow}
+            alt="right-arrow"
+            class="btnBlue"
+            width="20"
+            height="20"
+            aria-label="project button"
+          />
           <span>My Projects</span>
         </a>
       </button>

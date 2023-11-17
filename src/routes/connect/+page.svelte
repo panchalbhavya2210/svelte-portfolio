@@ -7,6 +7,10 @@
   import twitter from "/src/lib/icons/twitter.svg";
 </script>
 
+<svelte:head>
+  <title>Connect - Bhavya Panchal</title>
+  <meta name="description" content="Bhavya Panchal's Portfolio" />
+</svelte:head>
 <main>
   <div class="margin">
     <div class="aboutMeCent">

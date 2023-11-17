@@ -7,6 +7,10 @@
   import Education from "./education.svelte";
 </script>
 
+<svelte:head>
+  <title>About - Bhavya Panchal</title>
+  <meta name="description" content="Bhavya Panchal's Portfolio" />
+</svelte:head>
 <main>
   <div class="margin">
     <div class="aboutMeCent">

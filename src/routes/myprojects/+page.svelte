@@ -4,6 +4,10 @@
   import blueLine from "/src/lib/images/project-blob.svg";
 </script>
 
+<svelte:head>
+  <title>MyProjects - Bhavya Panchal</title>
+  <meta name="description" content="Bhavya Panchal's Portfolio" />
+</svelte:head>
 <main>
   <div class="margin">
     <div class="aboutMeCent">

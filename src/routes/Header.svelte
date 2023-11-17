@@ -1,4 +1,4 @@
-<script>
+<script defer>
   import { page } from "$app/stores";
   import "./styles.css";
 
@@ -68,6 +68,7 @@
       <a href="/"
         ><button
           class="btn items aria"
+          aria-label="link home"
           aria-current={$page.url.pathname === "/" ? "page" : undefined}
           >Home</button
         ></a
@@ -75,6 +76,7 @@
       <a href="/about"
         ><button
           class="btn items aria"
+          aria-label="link about"
           aria-current={$page.url.pathname === "/about" ? "page" : undefined}
           >About Me</button
         ></a
@@ -82,6 +84,7 @@
       <a href="/myprojects"
         ><button
           class="btn items aria"
+          aria-label="link project"
           aria-current={$page.url.pathname === "/myprojects"
             ? "page"
             : undefined}>My Projects</button
@@ -90,13 +93,18 @@
       <a href="/connect"
         ><button
           class="btn items aria"
+          aria-label="link connect"
           aria-current={$page.url.pathname === "/connect" ? "page" : undefined}
           >Connect</button
         ></a
       >
     </div>
 
-    <button class="hamBurger" on:click={() => (toggleNav = !toggleNav)}>
+    <button
+      class="hamBurger"
+      aria-label="menu button"
+      on:click={() => (toggleNav = !toggleNav)}
+    >
       <div class="hamburgerDesign">
         <div class="barOne one" />
         <div class="barOne two" />
@@ -110,6 +118,7 @@
       <a href="/"
         ><button
           class="btn items aria"
+          aria-label="link home"
           aria-current={$page.url.pathname === "/" ? "page" : undefined}
           on:click={() => (toggleNav = !toggleNav)}>Home</button
         ></a
@@ -118,6 +127,7 @@
       <a href="/about"
         ><button
           class="btn items aria"
+          aria-label="link about"
           aria-current={$page.url.pathname === "/about" ? "page" : undefined}
           on:click={() => (toggleNav = !toggleNav)}>About Me</button
         ></a
@@ -127,6 +137,7 @@
       <a href="/myprojects"
         ><button
           class="btn items aria"
+          aria-label="link projects"
           aria-current={$page.url.pathname === "/myprojects"
             ? "page"
             : undefined}
@@ -138,6 +149,7 @@
       <a href="/connect"
         ><button
           class="btn items aria"
+          aria-label="link connect"
           aria-current={$page.url.pathname === "/connect" ? "page" : undefined}
           on:click={() => (toggleNav = !toggleNav)}>Connect</button
         ></a

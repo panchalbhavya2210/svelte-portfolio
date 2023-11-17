@@ -11,7 +11,7 @@
         <img src={B} alt="my img" class="b" />
       </div>
       <div class="linkHolder">
-        <button class="designBtn">
+        <button class="designBtn" aria-label="visit github profile">
           <a
             class="flex"
             href="https://github.com/panchalbhavya2210"
@@ -22,7 +22,7 @@
           </a>
         </button>
         <br />
-        <button class="designBtn">
+        <button class="designBtn" aria-label="visit connect page">
           <a class="flex" href="/connect">
             <img src={bigArrow} alt="right-arrow" class="btnBlue" />
             <span>Contact Me</span>

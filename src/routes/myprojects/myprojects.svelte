@@ -74,7 +74,7 @@
               </div>
             </div>
 
-            <button class="designBtn">
+            <button class="designBtn" aria-label="weather app link">
               <a
                 class="flex"
                 href="https://temp-cast.netlify.app"
@@ -134,7 +134,10 @@
                 LocalStorage API
               </div>
             </div>
-            <button class="designBtn">
+            <button
+              class="designBtn"
+              aria-label="password generator project link"
+            >
               <a
                 class="flex"
                 href="https://bytepass.netlify.app"
@@ -195,7 +198,10 @@
                 Firebase
               </div>
             </div>
-            <button class="designBtn">
+            <button
+              class="designBtn"
+              aria-label="dochoster assignment downloader college"
+            >
               <a
                 class="flex"
                 href="https://dochoster.netlify.app"
@@ -249,7 +255,7 @@
               </div>
               <div class="logoPlusStackName" />
             </div>
-            <button class="designBtn">
+            <button class="designBtn" aria-label="music player site">
               <a
                 class="flex"
                 href="https://musicbytes.netlify.app"
@@ -316,7 +322,7 @@
                 Api Ninja's Currency Api
               </div>
             </div>
-            <button class="designBtn">
+            <button class="designBtn" aria-label="currency-converter site">
               <a
                 class="flex"
                 href="https://currency-converter-pb.netlify.app"
@@ -392,7 +398,7 @@
                 Firebase
               </div>
             </div>
-            <button class="designBtn">
+            <button class="designBtn" aria-label="todo app">
               <a
                 class="flex"
                 href="https://bytetask.vercel.app"
@@ -460,7 +466,7 @@
                 Socket IO
               </div>
             </div>
-            <button class="designBtn">
+            <button class="designBtn" aria-label="chat app">
               <a
                 class="flex"
                 href="https://github.com/panchalbhavya2210/chat_app"
@@ -525,7 +531,7 @@
               <div class="logoPlusStackName" />
               <div class="logoPlusStackName" />
             </div>
-            <button class="designBtn">
+            <button class="designBtn" aria-label="byte blog blogging site">
               <a
                 class="flex"
                 href="https://byte-blog.vercel.app"

@@ -1,6 +1,6 @@
-<script>
+<script defer>
   import "./styles.css";
-  import flowerPic from "../lib/images/esther-lewis-yP0ntBuVcVA-unsplash.jpg";
+  import flowerPic from "../lib/images/esther-lewis-yP0ntBuVcVA-unsplash.webp";
   import blueGrad from "../lib/images/blue-gradient.svg";
   import arrow from "../lib/images/arrow.svg";
   import blueBorder from "../lib/images/blob-haikei.svg";
@@ -42,9 +42,9 @@
 </svelte:head>
 
 <section class="margin">
-  <img src={blueBorder} class="blueBorder" alt="blue-border" />
+  <img src={blueBorder} class="blueBorder" alt="blue-border" loading="eager" />
   <div class="positonAbsoluteImg">
-    <img src={blueGrad} alt="blob" class="imgBlob" />
+    <img src={blueGrad} alt="blob" class="imgBlob" loading="eager" />
   </div>
   <div class="heroSection">
     <div class="mainDisplayFlex">
@@ -59,14 +59,23 @@
           A web developer and UI designer who loves turning ideas into reality.
           I'm always looking for ways to improve and grow in my craft!
         </p>
-        <button class="exploreBtn" on:click={runToAss}
+        <button
+          class="exploreBtn"
+          on:click={runToAss}
+          aria-label="explore button with down arrow containing on click function"
           ><span class="black">EXPLORE <br /> IT.</span>
-          <img src={arrow} alt="down-rotated-arrow" class="arrow" />
+          <img
+            src={arrow}
+            alt="down-rotated-arrow"
+            class="arrow"
+            width="15px"
+            height="15px"
+          />
         </button>
       </div>
       <div class="detailsContainer" />
       <div class="imageContainer">
-        <img src={flowerPic} alt="flowers-vertical" />
+        <img src={flowerPic} alt="flowers-vertical" loading="eager" />
       </div>
     </div>
   </div>

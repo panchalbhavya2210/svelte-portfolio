@@ -1,4 +1,4 @@
-<script>
+<script defer>
   import "./styles.css";
   import bigArrow from "../lib/icons/big-arrow.svg";
 </script>
@@ -14,9 +14,15 @@
         practice. This project helped me understand the fundamentals of the
         frontend and backend sides of the web.
       </p>
-      <button class="designBtn">
+      <button class="designBtn" aria-label="view in details my projects">
         <a class="flex" href="/myprojects">
-          <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+          <img
+            src={bigArrow}
+            alt="right-arrow"
+            class="btnBlue"
+            width="20"
+            height="20"
+          />
           <span>View In Details</span>
         </a>
       </button>

@@ -1,4 +1,4 @@
-<script>
+<script defer>
   import { page } from "$app/stores";
   import navigationSvg from "../lib/images/navigation.svg";
   import linksSvg from "../lib/images/links.svg";

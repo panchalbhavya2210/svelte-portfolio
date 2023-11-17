@@ -1,4 +1,4 @@
-<script>
+<script defer>
   // @ts-nocheck
 
   import "./styles.css";
