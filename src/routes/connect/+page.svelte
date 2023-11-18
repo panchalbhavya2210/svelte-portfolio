@@ -4,6 +4,8 @@
   import dis from "/src/lib/icons/dc.svg";
   import call from "/src/lib/icons/call.svg";
   import red from "/src/lib/icons/red.svg";
+  import { blur } from "svelte/transition";
+
   import twitter from "/src/lib/icons/twitter.svg";
 </script>
 
@@ -11,7 +13,12 @@
   <title>Connect - Bhavya Panchal</title>
   <meta name="description" content="Bhavya Panchal's Portfolio" />
 </svelte:head>
-<main>
+<main
+  transition:blur={{
+    duration: 600,
+    amount: 50,
+  }}
+>
   <div class="margin">
     <div class="aboutMeCent">
       <div class="rectAbt">

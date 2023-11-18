@@ -2,13 +2,19 @@
   import Myprojects from "./myprojects.svelte";
   import "../styles.css";
   import blueLine from "/src/lib/images/project-blob.svg";
+  import { blur } from "svelte/transition";
 </script>
 
 <svelte:head>
   <title>MyProjects - Bhavya Panchal</title>
   <meta name="description" content="Bhavya Panchal's Portfolio" />
 </svelte:head>
-<main>
+<main
+  transition:blur={{
+    duration: 600,
+    amount: 50,
+  }}
+>
   <div class="margin">
     <div class="aboutMeCent">
       <div class="rectAbt">

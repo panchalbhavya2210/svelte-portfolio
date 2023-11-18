@@ -11,6 +11,10 @@
   import socket from "/src/lib/iconsSkill/socket.svg";
   import svelte from "/src/lib/iconsSkill/svelte.svg";
   import js from "/src/lib/iconsSkill/js.svg";
+  import supabase from "/src/lib/iconsSkill/supabase.svg";
+  import django from "/src/lib/iconsSkill/django.svg";
+  import python from "/src/lib/iconsSkill/python.svg";
+  import tailwind from "/src/lib/iconsSkill/tailwind.svg";
   import Rectangle from "../rectangle.svelte";
 </script>
 
@@ -58,6 +62,22 @@
         src={socket}
         languageName={"Socket IO"}
         alt={"Socket iO Logo"}
+      />
+      <Rectangle
+        src={tailwind}
+        languageName={"Tailwind CSS"}
+        alt={"Tailwind CSS Logo"}
+      />
+      <Rectangle
+        src={supabase}
+        languageName={"SupaBase"}
+        alt={"Supabase Logo"}
+      />
+      <Rectangle src={python} languageName={"Python"} alt={"Python Logo"} />
+      <Rectangle
+        src={django}
+        languageName={"Django (Python)"}
+        alt={"Django Logo"}
       />
     </div>
   </div>

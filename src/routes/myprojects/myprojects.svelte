@@ -11,6 +11,7 @@
   import socket from "/src/lib/iconsSkill/socket.svg";
   import skit from "/src/lib/iconsSkill/svelte.svg";
   import tailwind from "/src/lib/iconsSkill/tailwind-svgrepo-com.svg";
+  import supabase from "/src/lib/iconsSkill/supabase.svg";
 </script>
 
 <main>
@@ -24,6 +25,69 @@
     </div>
     <div class="projectFirst">
       <div class="parent">
+        <div class="div7 divHeight">
+          <div class="logoStyling">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-article"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="#000000"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"
+              />
+              <path d="M7 8h10" />
+              <path d="M7 12h10" />
+              <path d="M7 16h10" />
+            </svg>
+          </div>
+          <div class="titleOfPrj">
+            <p class="title">ShopAholic - Shopping Site</p>
+            <p class="det">
+              I created ShopAholic e-commerce platform for selling and
+              purchasing item at same time, using svelte, supabase, tailwind.
+            </p>
+            <div class="stackUsed">
+              <p>Stack Used</p>
+
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={skit} alt="svelte" />
+                </span>
+                Svelte
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={supabase} alt="Firebase" />
+                </span>
+                Supabase
+              </div>
+              <div class="logoPlusStackName">
+                <span class="imgBorder">
+                  <img src={tailwind} alt="tailwind css" />
+                </span>
+                Tailwind CSS
+              </div>
+            </div>
+            <button class="designBtn" aria-label="byte blog blogging site">
+              <a
+                class="flex"
+                href="https://e-commerce-try.vercel.app"
+                target="_blank"
+              >
+                <img src={bigArrow} alt="right-arrow" class="btnBlue" />
+                <span>Visit</span>
+              </a>
+            </button>
+          </div>
+        </div>
         <div class="div1 divHeight">
           <div class="logoStyling">
             <svg
@@ -478,7 +542,8 @@
             </button>
           </div>
         </div>
-        <div class="div8 divHeight">
+
+        <div class="div7 divHeight">
           <div class="logoStyling">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -528,8 +593,6 @@
                 </span>
                 Tailwind CSS
               </div>
-              <div class="logoPlusStackName" />
-              <div class="logoPlusStackName" />
             </div>
             <button class="designBtn" aria-label="byte blog blogging site">
               <a
@@ -693,7 +756,7 @@
     .div7 {
       width: 87%;
       grid-area: auto;
-      margin: 0 0 0 20px;
+      margin: auto;
     }
   }
 </style>

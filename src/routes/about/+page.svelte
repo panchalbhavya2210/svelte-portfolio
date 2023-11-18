@@ -5,13 +5,19 @@
   import Skills from "./skills.svelte";
   import Mydetails from "./mydetails.svelte";
   import Education from "./education.svelte";
+  import { blur } from "svelte/transition";
 </script>
 
 <svelte:head>
   <title>About - Bhavya Panchal</title>
   <meta name="description" content="Bhavya Panchal's Portfolio" />
 </svelte:head>
-<main>
+<main
+  transition:blur={{
+    duration: 600,
+    amount: 50,
+  }}
+>
   <div class="margin">
     <div class="aboutMeCent">
       <div class="rectAbt">
