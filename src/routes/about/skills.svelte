@@ -94,9 +94,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 12px;
+    grid-column-gap: 0px;
     grid-row-gap: 50px;
-    margin: 0 0 80px 30px;
+    margin: 0 0 80px 0px;
   }
   .skillNexp {
     width: 20%;
@@ -120,8 +120,8 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 1fr);
       grid-column-gap: 15px;
-      grid-row-gap: 35px;
-      margin: 20px;
+      grid-row-gap: 20px;
+      margin: 28px;
     }
     .skillNexp {
       width: 90%;
