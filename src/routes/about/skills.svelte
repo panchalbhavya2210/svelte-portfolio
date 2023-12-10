@@ -16,6 +16,10 @@
   import python from "/src/lib/iconsSkill/python.svg";
   import tailwind from "/src/lib/iconsSkill/tailwind.svg";
   import Rectangle from "../rectangle.svelte";
+  import Nuxt from "/src/lib/iconsSkill/nuxt.svg";
+  import Vue from "/src/lib/iconsSkill/vue.svg";
+  import ts from "/src/lib/iconsSkill/ts.svg";
+  import ast from "/src/lib/iconsSkill/ast.svg";
 </script>
 
 <main>
@@ -46,11 +50,7 @@
       />
       <Rectangle src={svelte} languageName={"Svelte Kit"} alt={"Svelte Logo"} />
       <Rectangle src={git} languageName={"GIT"} alt={"Git Logo"} />
-      <Rectangle
-        src={chartJs}
-        languageName={"Chart JS"}
-        alt={"Chart Js Logo"}
-      />
+
       <Rectangle src={node} languageName={"Node JS"} alt={"Node Js Logo"} />
       <Rectangle src={php} languageName={"PHP"} alt={"Php Logo"} />
       <Rectangle
@@ -79,6 +79,14 @@
         languageName={"Django (Python)"}
         alt={"Django Logo"}
       />
+      <Rectangle src={Nuxt} languageName={"Nuxt Js"} alt={"Nuxt JS Logo"} />
+      <Rectangle src={Vue} languageName={"Vue JS"} alt={"Vue Logo"} />
+      <Rectangle
+        src={ts}
+        languageName={"TypeScript (Basics)"}
+        alt={"TypeScript Logo"}
+      />
+      <Rectangle src={ast} languageName={"Astro JS"} alt={"Astro Logo"} />
     </div>
   </div>
 </main>
