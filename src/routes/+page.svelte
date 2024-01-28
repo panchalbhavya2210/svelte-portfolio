@@ -5,6 +5,10 @@
   import { blur } from "svelte/transition";
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
+  import { dev } from "$app/environment";
+  import { inject } from "@vercel/analytics";
+
+  inject({ mode: dev ? "development" : "production" });
 </script>
 
 <!-- transition:blur={{ amount: 100 }} transition:fly={{
